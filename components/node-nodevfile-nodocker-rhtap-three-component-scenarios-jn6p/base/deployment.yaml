@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: node-nodevfile-nodocker-rhtap-three-component-scenarios-jn6p
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/rhtap-demo-thcp-tenant/mc-three-scenarios/node-nodevfile-nodocker-rhtap-three-component-scenarios-jn6p@sha256:e51210a2c6f12d9f1d7715c754ee1b2d73190fb3cb55c62c0d16a612c12affa5
         name: my-nodejs
         ports:
         - containerPort: 3001
